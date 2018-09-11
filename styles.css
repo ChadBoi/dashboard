@@ -1,113 +1,3 @@
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html{
     height: 100%;
     width: 100%;
@@ -174,27 +64,80 @@ a{
 .container{
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
 .top{
+    margin: 0;
     display: flex;
+    justify-content: space-between;
+}
+.topLeft{
+    width: 65%;
+}
+.steps{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCS8YH9EK/image.png");
+}
+.topRight{
+    width: 30%;
+}
+.graph{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCR4A25D1/image.png")
 }
 .head{
     display: flex;
     height: 50px;
     margin-bottom: 20px;
 }
-
 .bottom{
+    margin: 0;
     display: flex;
+    justify-content: space-between;
 }
-
+.bottomLeft, .bottomRight, .bottomMiddle{
+    width: 30%;
+}
+.tasks{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCSHWMY06/image.png")
+}
+.calendar{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCR1LK1N0/image.png")
+}
 .bottomRight{
     display: flex;
     flex-direction: column;
 }
-
+.views{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCR7QF6F4/image.png")
+}
+.congratulations{
+    background-image: url("https://files.slack.com/files-pri/TAYN6TKEX-FCQFV219N/image.png")
+}
 .function{
-    width: 30%;
+    margin: 0;
+    background-color: darkblue;
+}
+
+.top .function{
     height: 100px;
+}
+
+.bottom .function{
+    height: 200px;
+}
+
+.viewCongrats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.views{
+    height: 45%;
+    background-color: darkblue;
+}
+.congratulations{
+    height: 45%;
     background-color: darkblue;
 }
